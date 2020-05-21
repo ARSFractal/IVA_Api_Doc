@@ -4,6 +4,7 @@ info:
   title: Example.com
   termsOfService: 'https://example.com/terms/'
   contact:
+    name: 'IVA API'
     email: contact@example.com
     url: 'http://example.com/contact'
   license:
