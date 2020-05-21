@@ -1,6 +1,7 @@
 {
   "name": "iva-api",
   "version": "1.0.0",
+  "homepage": "https://ARSFractal.github.io/IVA_Api_Doc",
   "dependencies": {
     "@redocly/openapi-cli": "^0.12.10"
   },
@@ -8,6 +9,8 @@
   "scripts": {
     "start": "openapi preview-docs",
     "build": "openapi bundle -o dist",
-    "test": "openapi validate"
+    "test": "openapi validate",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
